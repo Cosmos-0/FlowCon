@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the React root fills the window */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    background-color: #18181b !important; /* Match Tailwind bg-background */
+}
+  
